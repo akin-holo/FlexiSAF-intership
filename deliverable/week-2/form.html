@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akin Holo | Week 2 Deliverable - HTML Form</title>
+
+    <link rel="stylesheet" href="/deliverable/form.css">
+
+    <style>
+        
+        body {
+            background-color: #fffafa8f;
+
+
+             /* Breakpoint */
+             @media screen and (max-width: 900px){
+                width: 100%;
+            } 
+        }
+
+        main {
+            display: flex;
+            margin: 1rem 2.5rem;
+
+
+            @media screen and (max-width: 900px){
+                flex-direction: column;
+                margin: 0;
+            }
+        }
+        .message {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 30%;
+            text-align: center;
+            padding: 0 15px;
+            background-color: #fff;
+            border-left: 1px solid #00000005;
+            border-right: 1px solid #00000005;
+            margin: 3em;
+            font-size: 1.1rem;
+
+            /* Breakpoint */
+            @media screen and (max-width: 900px){
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+        }
+        .message h1 {
+            text-align: center;
+            width: 15ch;
+
+             /* Breakpoint */
+             @media screen and (max-width: 900px){
+                width: 100%;
+                /* margin: 0;
+                padding: 0; */
+            }
+        }
+        .message p {
+             /* Breakpoint */
+                @media screen and (max-width: 900px){
+                width: 95%;
+                margin: 0;
+                padding: 0;
+            } 
+        }
+        .message a {
+             /* Breakpoint */
+                @media screen and (max-width: 900px){
+                margin: 2em 0;
+            } 
+        }
+
+        .form-wrapper {
+            background-color: #000;
+            border: 1px solid #ffcbff;
+            border-radius: 10px;
+
+
+             /* Breakpoint */
+             @media screen and (max-width: 900px){
+                width: 98%;
+                padding: 3rem 0;
+            } 
+
+             @media screen and (max-width: 359px){
+                width: 310px;
+            } 
+        }
+        form {
+            color: #ffcbff;
+            padding: 1em 20px;
+            font-size: 18px;  
+        }
+
+        form label {
+            display: flex;
+        }
+        form input {
+            width: 90%;
+            padding: 10px;
+            margin-bottom: 25px;
+            background-color: #ffffffec;
+            border: 1px solid #ffcbff;
+            border-radius: 5px;
+        }
+        .gender-and-date-wrapper {
+            display: flex;
+            width: inherit;
+            gap: 7em; 
+            
+            
+            /*Breakpoint */
+            @media screen and (max-width: 359px){
+                flex-direction: column;
+                align-items: normal;
+                margin: 0;
+                gap: 2em;
+            } 
+        }
+        .gender-and-date-wrapper div {
+            display: flex;
+            gap: 5px;
+
+
+            /*Breakpoint */
+            @media screen and (max-width: 359px){
+                width: 100px; 
+                margin: 0;
+            } 
+        }
+        #gender {
+            width: initial;
+            height: 30px;
+
+
+            /*Breakpoint */
+            @media screen and (max-width: 359px){
+                width: 100px; 
+                margin: 0;
+            } 
+        }
+
+        form textarea {
+            width: 94%;
+            height: 100px;
+            margin: 0;
+        }
+
+        button {
+            width: 94%;
+            padding: 20px 5px;
+            margin: 10px auto 0;
+            background-color: #ffcbff;
+            outline: none;
+            border-radius: 5px;
+            border: 1px solid #ffffff00;
+            font-weight: bold;
+
+
+             /*Breakpoint */
+             @media screen and (max-width: 900px){
+                width: 100%; 
+                margin: 2em 0; 
+            } 
+        }
+        button:hover {
+            color: #fff;
+            background-color: transparent;
+            border: 1px solid #fff;
+            transition: 0.5s;
+        }
+        button:active {
+            color: #ffcbff;
+            background-color: #fffafa;
+        }
+    </style>
+</head>
+<body>
+    <Main>
+        <div class="message">
+            <h1>Akinseloyin Holo Appointment Form</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod nam voluptas iusto, provident temporibus aperiam dolor nobis. Sequi commodi dolore dolor praesentium deleniti. Beatae reprehenderit fugiat dignissimos, dolorum sunt veniam.</p>
+
+            <a href="/">Return to Home page</a>
+        </div>
+        <div class="form-wrapper">
+            <!-- <h1>Appointment Form</h1> -->
+            <form method="POST">
+                <label for="name">Name</label>
+                <input name="name" id="name" required>
+         
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" required>
+          
+                <label for="phone-number">Phone number</label>
+                <input type="tel" name="phone-number" id="phone-number" autocomplete="on" required> 
+          
+                <div class="gender-and-date-wrapper"> 
+                    <div>
+                        <label for="gender">Gender</label>
+                        <select id="gender">
+                            <option></option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option> 
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="date">Choose Date</label>
+                        <input type="date" name="date" id="date" required> 
+                    </div>
+                </div>
+                    <label for="password">Leave a Comments</label> <br>
+                    <textarea placeholder="type here"></textarea>
+                <div style="display: flex;">
+                    <button>Submit</button>
+                </div>
+            </form>
+        </div>
+    </Main>
+</body>
+</html>
