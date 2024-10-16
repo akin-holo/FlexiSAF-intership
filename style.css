@@ -22,11 +22,6 @@ body {
       @media screen and (max-width: 600px) {
         background-attachment: fixed;  
       }
-
-      /*320px device*/ 
-      /* @media screen and (max-width: 359px){
-            width: 100%; 
-      } */
 }
 header {
     display: flex;
@@ -200,11 +195,6 @@ main h1 {
     @media screen and (max-width: 600px) {
         font-size: 1.6rem;
     }
-
-    /* @media screen and (max-width: 359px){
-        text-align: center;
-        font-size: 1.3rem;
-    } */
 }
 .quote-and-service-wrapper {
     display: flex;
@@ -316,7 +306,7 @@ aside div a {
     background-color: #ffcbff;
     border: 1px solid #ffcbff00;
     border-radius: 5px;
-    font-size: 20px; 
+    font-size: 18px; 
 }
 aside div a:hover {
     color: #ffcbff;
