@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("/Assets/pexels-pixabay-207456.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+
+
+            /* Breakpoints */
+            @media screen and (max-width: 900px) {
+                width: 100%;
+                height: 100vh;
+            }
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: #fff;
+            padding: 0;
+            margin: 0;
+        }
+           
+        nav div {
+            display: block;
+            flex-direction: row;
+            margin-right: 2.5em;
+        }
+        nav div .fa-brands{
+            display: inline-block;
+            color: #000;margin: 0.7rem;
+
+        }
+
+        h1 {
+            color: #fff;
+            text-align: center;
+            font-size: 3rem;
+        }
+
+        main {
+            padding: 10px 10px 5rem;
+            margin: 4rem;
+            background-color: #00000098;
+
+
+              /* Breakpoints */
+              @media screen and (max-width: 900px) {
+                padding: 10px 10px 5rem;
+                margin: 0rem;
+                background-color: #00000098;   
+            }
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center; 
+            gap: 3em;
+        }
+        div a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.5rem;
+
+
+            @media screen and (max-width: 900px) {
+                font-size: 1.4em;
+            }
+        }
+        div a:hover .fa-solid{
+            transform: rotate("20px");
+            background-color: #008000;
+            animation: rotate 1s linear infinite;
+        }
+            @keyframes rotate {
+                0% {
+                    transform: rotate(-45deg)
+                }
+                25% {
+                    transform: rotate(45deg);
+                }
+                50% {
+                    transform: rotate(-45deg);
+                }
+                100% {
+                    transform: rotate(45deg);
+                }
+            }
+        div a span {
+            padding: 10px 20px;
+            background-color: #000000cb;
+            border-radius: 20px;
+
+
+            @media screen and (max-width: 900px) {
+                padding: 10px;
+            }
+        }
+        div a .fa-solid {
+            padding: 15px;
+            background-color: #000000cb;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/"><img src="/Assets/akinHolo -username.png" width="100" style="margin-left: 2em;"></a>
+            <div>
+                <a href="https://x.com/AkinHolo" target="_blank" aria-label="connect with me on Twitter"><i class="fa-brands fa-x-twitter"></i></a> 
+                <a href="" target="_blank" aria-label="connect with me on facebook"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact me</h1>
+
+        <div>
+            <a href="tel:+2348101883064">
+                <i class="fa-solid fa-phone"></i>
+                <span>+234 810 188 3064</span>
+            </a>
+            <a href="mailto:holoakinseloyin@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>holoakinseloyin@gmail.com</span>
+            </a>
+        </div>
+    </main>
+</body>
+</html>
