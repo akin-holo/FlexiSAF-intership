@@ -19,6 +19,10 @@
             } 
         }
 
+        h1 {
+            text-align: center;
+        }
+
         main {
             display: flex;
             margin: 1rem 2.5rem;
@@ -57,8 +61,6 @@
              /* Breakpoint */
              @media screen and (max-width: 900px){
                 width: 100%;
-                /* margin: 0;
-                padding: 0; */
             }
         }
         .message p {
@@ -182,16 +184,17 @@
     </style>
 </head>
 <body>
+    <h1>Appointment Form</h1>
+
     <Main>
-        <div class="message">
-            <h1>Akinseloyin Holo Appointment Form</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod nam voluptas iusto, provident temporibus aperiam dolor nobis. Sequi commodi dolore dolor praesentium deleniti. Beatae reprehenderit fugiat dignissimos, dolorum sunt veniam.</p>
+        <div class="message" id="message">
+            <p id="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod nam voluptas iusto, provident temporibus aperiam dolor nobis. Sequi commodi dolore dolor praesentium deleniti. Beatae reprehenderit fugiat dignissimos, dolorum sunt veniam.</p>
 
             <a href="/">Return to Home page</a>
         </div>
         <div class="form-wrapper">
             <!-- <h1>Appointment Form</h1> -->
-            <form method="POST">
+            <form name="myForm" method="POST" id="form" onsubmit="return validateForm()">
                 <label for="name">Name</label>
                 <input name="name" id="name" required>
          
@@ -204,7 +207,7 @@
                 <div class="gender-and-date-wrapper"> 
                     <div>
                         <label for="gender">Gender</label>
-                        <select id="gender">
+                        <select name="gender" id="gender">
                             <option></option>
                             <option value="male">Male</option>
                             <option value="female">Female</option> 
@@ -216,13 +219,16 @@
                         <input type="date" name="date" id="date" required> 
                     </div>
                 </div>
-                    <label for="password">Leave a Comments</label> <br>
-                    <textarea placeholder="type here"></textarea>
+                    <label for="comment">Leave a Comments</label> <br>
+                    <textarea name="comment" placeholder="type here"></textarea>
                 <div style="display: flex;">
-                    <button>Submit</button>
+                    <button type="submit">Submit</button>
                 </div>
             </form>
         </div>
     </Main>
+
+    <script src="/deliverable/week-5/form-validation.js"></script>
+    <script src="/deliverable/week-6/dom.js"></script>
 </body>
 </html>
