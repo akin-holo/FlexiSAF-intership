@@ -12,7 +12,6 @@ This is a solution to the 3 columns mock-ups task
 
 ## Overview
 
-
 ### Links
 
 - Solution URL: https://github.com/akin-holo/FlexiSAF_Hank-on-task-1
