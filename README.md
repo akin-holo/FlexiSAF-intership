@@ -1,6 +1,6 @@
-# Frontend Mentor - QR code component solution
+# Hand-on task1
 
-This is a solution to the Hand-on 3 columns mock-ups taks1 
+This is a solution to the 3 columns mock-ups task
 
 ## Table of contents
 
