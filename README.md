@@ -21,12 +21,12 @@ The one recently included is Hand-on task (8), Calculator.
 ### Links
 
  _Week 7: The 3 columns mock-ups_
-  - Live Site URL: https://flexisaf-3-mock-ups-task.netlify.app/
-  - Solution URL: https://github.com/akin-holo/FlexiSAF_Hank-on-task-1
+  - Live Site URL: [flexisaf-3-mock-ups-task.netlify.app](https://flexisaf-3-mock-ups-task.netlify.app/)
+  - Solution URL: [github.com/akin-holo/FlexiSAF_Hank-on-task-1](https://github.com/akin-holo/FlexiSAF_Hank-on-task-1)
 
 _Week 8: Calculator_
-  - Live Site URL: https://flexisaf-week8-calculator.netlify.app/
-  - Solution URL: https://github.com/akin-holo/flexiSAF_Hand-on-task-2
+  - Live Site URL: [flexisaf-week8-calculator.netlify.app](https://flexisaf-week8-calculator.netlify.app/)
+  - Solution URL: [github.com/akin-holo/flexiSAF_Hand-on-task-2](https://github.com/akin-holo/flexiSAF_Hand-on-task-2)
 
 
 ### Built with
