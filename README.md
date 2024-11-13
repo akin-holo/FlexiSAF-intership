@@ -1,6 +1,6 @@
 # Hand-on tasks
 
-Recent update:- Week 8 .
+Recent update:- Week 9 (Drum Machine) .
 
 ## Table of contents
 
@@ -14,7 +14,7 @@ Recent update:- Week 8 .
 The solutions to the **Hand-on tasks** are provided here. There are links to each "WEEK" hand-on task.
 Each hand-on task has 2 #links (live url to the project and github url to the codebase).
 
-The one recently included is Hand-on task (8), Calculator.
+New update: [week 9 task](#Drum-Machine).
 
 
 
@@ -27,6 +27,11 @@ The one recently included is Hand-on task (8), Calculator.
 _Week 8: Calculator_
   - Live Site URL: [flexisaf-week8-calculator.netlify.app](https://flexisaf-week8-calculator.netlify.app/)
   - Solution URL: [github.com/akin-holo/flexiSAF_Hand-on-task-2](https://github.com/akin-holo/flexiSAF_Hand-on-task-2)
+
+_Week 9: Drum-Machine_
+  - Live Site URL: [flexisaf-week-9-drum-machine.netlify.app](https://flexisaf-week-9-drum-machine.netlify.app/)
+  - Solution URL: [github.com/akin-holo/flexiSAF_Hand-on-task-(3)](https://github.com/akin-holo/flexiSAF_Hand-on-task-3)
+
 
 
 ### Built with
