@@ -14,7 +14,7 @@ Recent update:- Week 9 (Drum Machine) .
 The solutions to the **Hand-on tasks** are provided here. There are links to each "WEEK" hand-on task.
 Each hand-on task has 2 #links (live url to the project and github url to the codebase).
 
-New update: [week 9 task](#Drum-Machine).
+New update: [week 10 task - word/sentence generator](#Drum-Machine).
 
 
 
@@ -32,7 +32,9 @@ _Week 9: Drum-Machine_
   - Live Site URL: [flexisaf-week-9-drum-machine.netlify.app](https://flexisaf-week-9-drum-machine.netlify.app/)
   - Solution URL: [github.com/akin-holo/flexiSAF_Hand-on-task-(3)](https://github.com/akin-holo/flexiSAF_Hand-on-task-3)
 
-
+_Week 10: Word/Sentence/Paragraph Generator_
+  - Live Site URL: [flexisaf-week-10-word-sentence-paragraph-generator.netlify](https://flexisaf-word-sentence-para-generator.netlify.app/)
+  - Solution URL: [github.com/akin-holo/flexiSAF_Hand-on-task-(4)](https://github.com/akin-holo/flexiSAF_Hand-on-task-4)
 
 ### Built with
 
