@@ -1,6 +1,6 @@
 # Hand-on tasks
 
-Recent update:- Week 9 (Drum Machine) .
+Recent update:- Week 10 - *WORD*, *SENTENCE*, *PARAGRAPH* GENERATOR.
 
 ## Table of contents
 
