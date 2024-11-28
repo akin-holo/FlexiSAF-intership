@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Presentation</title>
+
+    <!-- Reveal.js Styles -->
+    <link rel="stylesheet" href="revealjs/dist/reveal.css">
+    <link rel="stylesheet" href="revealjs/dist/theme/black.css"> <!-- You can change the theme -->
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section>
+                <h1>Welcome to My <span>git</span> Presentation</h1>
+                <p>I am excited to share my learning outcomes in Git with you. In this presentation, I will briefly explain the:</p>
+            </section>
+
+                            <!--Subject Outline-->
+            <section data-auto-animate>
+                <h1 style="font-size: 4rem; margin-top: 20px;">1. Basic of Git</h1>
+            </section>
+            <section data-auto-animate>
+                <h1 style="font-size: 4rem; color: rgb(243, 89, 89); border-bottom: 1px solid rgb(243,89,89);">1. Basic of Git</h1>
+                <h1 style="font-size: 4rem">2. How to configure and set up a Git control system</h1>
+            </section>
+            <section data-auto-animate>
+                <h1 style="font-size: 4rem; margin-top: 20px; color: rgb(243, 89, 89); border-bottom: 1px solid rgb(243,89,89);">1. Basic of Git</h1>
+                <h1 style="font-size: 4rem; color: goldenrod; border-bottom: 1px solid goldenrod;" >2. How to configure and set up a Git control system</h1>
+                <h1 style="font-size: 4rem; color: lightskyblue;">3. And demonstrate some essential Git commands</h1>
+            </section>
+
+                                <!-- Subject Note-->
+                <!-- (What is Git)-->
+            <section data-auto-animate>
+                <h1>What is Git</h1>
+            </section>
+            <section data-auto-animate>
+                <h1 style="margin-top: 100px; border-bottom: 1px solid rgb(192, 136, 96);">What is Git</h1>
+                <p>Git is a distributed version control system that helps developers track changes in their code, collaborate with others, and manage project history efficiently.</p>
+            </section>
+
+                <!-- (Configuration)-->
+            <section data-auto-animate>
+                <h1>Configuration</h1>
+            </section>
+            <section data-auto-animate>
+                <h1 style="border-bottom: 1px solid white; color: burlywood;">Configuration</h1>
+                <p>Configuration involves setting up user credentials to ensure that contributions are properly attributed in the version control system.</p>
+            </section>
+            <section data-auto-animate>
+                <h1 style="border-bottom: 1px solid white; color: burlywood;">Configuration</h1>
+                <p>Configuration involves setting up user credentials to ensure that contributions are properly attributed in the version control system.</p>
+                <h5 style="font-style: italic; color: rgb(192, 136, 96);">Example:</h5>
+                <pre>
+                    <code style="font-size: 18px; background-color: rgba(255, 228, 196, 0.087); border-radius: 5px;">
+                        git config --global user.name <span style="color: green;">"My Name"</span>
+                        git config --global user.email <span style="color: green;">"addressname@email.com"</span>
+                    </code>
+                </pre>
+            </section>
+
+                <!-- (Setting Up the Git Control System)-->
+            <section data-auto-animate>
+                <h1>Setting Up the Git Control System</h1>
+            </section>
+            <section data-auto-animate>
+                <h1 style=" color:goldenrod; border-bottom: 1px solid goldenrod;">Setting Up the Git Control System</h1>
+                <p>Setting up a Git control system begins with initializing a project repository and includes several key commands:</p>
+            </section>
+            <section data-auto-animate>
+                <h1 style=" color:goldenrod; border-bottom: 1px solid goldenrod;">Setting Up the Git Control System</h1>
+                <p>Setting up a Git control system begins with initializing a project repository and includes several key commands:</p>
+            </section>
+            <section>Setting Up the Git Control System</section>
+            <section>
+                <section>
+                    <p style="color: green;">// initialize a Git repository</p>
+                    <p><span style="color: goldenrod;">Git </span> init</p>
+                </section>
+                <section>
+                    <p style="color: green;">// Stage files for commit</p>
+                    <p><span style="color: goldenrod;">Git </span> add .</p>
+                </section>
+            </section>
+        </div>
+    </div>
+
+    <!-- Reveal.js Script -->
+    <script src="revealjs/dist/reveal.js"></script>
+    <script>
+        Reveal.initialize({
+            controls: true,         // Navigation controls
+            progress: true,         // Progress bar
+            slideNumber: true,      // Slide numbers
+            history: true,          // Browser history
+            center: true,           // Center slides
+            transition: 'slide'     // Slide transition ('none', 'fade', 'slide', 'convex', 'concave', 'zoom')
+        });
+    </script>
+</body>
+</html>
