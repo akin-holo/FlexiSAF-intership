@@ -8,7 +8,7 @@ Recent update:- Week 10 - *WORD*, *SENTENCE*, *PARAGRAPH* GENERATOR.
   - [Links](#links)
   - [Built with](#built-with)
   
-
+[link](git-presentation.html) 
 ## Overview
 
 The solutions to the **Hand-on tasks** are provided here. There are links to each "WEEK" hand-on task.

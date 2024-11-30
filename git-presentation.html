@@ -3,7 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Presentation</title>
+    <title>My Git Presentation | Akin Holo</title>
+    <link rel="icon" type="image/x-icon" href="https://github.com/akin-holo/image-preview/blob/main/logo.png?raw=true">
+
 
     <!-- Reveal.js Styles -->
     <link rel="stylesheet" href="revealjs/dist/reveal.css">
@@ -11,14 +13,18 @@
 </head>
 <body>
     <div class="reveal">
+        <nav style="height: 50px; margin: 0;">
+            <img style="background-color: transparent; width: 100px; margin: 10px 0 0 10px; border-radius: 5px;" src="https://github.com/akin-holo/image-preview/blob/main/logo-black.png?raw=true"/>
+        </nav>
         <div class="slides">
             <section>
-                <h1>Welcome to My <span>git</span> Presentation</h1>
-                <p>I am excited to share my learning outcomes in Git with you. In this presentation, I will briefly explain the:</p>
+                <h1>Welcome to My <span style="color: rgb(249, 95, 95);">git</span><img src="Assets/git logo.png" width="250" height="250"> Presentation</h1>
             </section>
 
                             <!--Subject Outline-->
+            <section data-auto-animate> <p style="font-size: 4rem; margin-top: 20px;">I am excited to share my learning outcomes in Git with you. In this presentation, I will briefly explain the:</p></section>
             <section data-auto-animate>
+                <p style="font-size: 4rem; margin-top: 20px;">I am excited to share my learning outcomes in Git with you. In this presentation, I will briefly explain the:</p>
                 <h1 style="font-size: 4rem; margin-top: 20px;">1. Basic of Git</h1>
             </section>
             <section data-auto-animate>
@@ -69,28 +75,60 @@
                 <h1 style=" color:goldenrod; border-bottom: 1px solid goldenrod;">Setting Up the Git Control System</h1>
                 <p>Setting up a Git control system begins with initializing a project repository and includes several key commands:</p>
             </section>
-            <section data-auto-animate>
-                <h1 style=" color:goldenrod; border-bottom: 1px solid goldenrod;">Setting Up the Git Control System</h1>
-                <p>Setting up a Git control system begins with initializing a project repository and includes several key commands:</p>
-            </section>
-            <section>Setting Up the Git Control System</section>
             <section>
+                <section>Setting Up the Git Control System</section>
                 <section>
                     <p style="color: green;">// initialize a Git repository</p>
-                    <p><span style="color: goldenrod;">Git </span> init</p>
+                    <pre>
+                    <code style="font-size: 30px; background-color: rgba(255, 228, 196, 0.087); border-radius: 5px;">
+                    <span style="color: goldenrod;">git </span> init
+                     </code>
+                    </pre>
                 </section>
                 <section>
                     <p style="color: green;">// Stage files for commit</p>
-                    <p><span style="color: goldenrod;">Git </span> add .</p>
+                    <pre>
+                    <code style="font-size: 30px; background-color: rgba(255, 228, 196, 0.087); border-radius: 5px;">
+                    <span style="color: goldenrod;">git </span> add .
+                    </code>
+                    </pre>
                 </section>
                 <section>
                     <p style="color: green;">// Commit changes with a message</p>
-                    <p><span style="color: goldenrod;">Git </span> commit -m  <span style="color: rgb(106, 106, 225);">"message"</span></p>
+                    <pre>
+                    <code style="font-size: 30px; background-color: rgba(255, 228, 196, 0.087); border-radius: 5px;">
+                    <span style="color: goldenrod;">git </span>commit -m <span style="color: rgb(106, 106, 225);">"message"</span>
+                     </code>
+                    </pre>
+                </section>
+                <section>
+                <p style="color: green;">// Add a remote repository</p>
+                <pre>
+                <code style="font-size: 27px; background-color: rgba(255, 228, 196, 0.087); border-radius: 5px;">
+                <span style="color: goldenrod;">Git </span> remote add origin [repository-url]</span>
+                </code>
+                </pre>
+                </section>
+                <section>
+                    <p style="color: green;">// Push changes to the remote repository</p>
+                    <pre>
+                    <code style="font-size: 30px; background-color: rgba(255, 228, 196, 0.087); border-radius: 5px;">
+                    <span style="color: goldenrod;">git </span> push - u origin
+                    </code>
+                    </pre>
+                </section>
+                <section>
+                    <p style="color: green;">// Create a new branch</p>
+                    <pre>
+                    <code style="font-size: 30px; background-color: rgba(255, 228, 196, 0.087); border-radius: 5px;">
+                    <span style="color: goldenrod;">Git </span> branch [name-of-branch]
+                    </code>
+                    </pre>
+                    <p></p>
                 </section>
             </section>
         </div>
     </div>
-
     <!-- Reveal.js Script -->
     <script src="revealjs/dist/reveal.js"></script>
     <script>
